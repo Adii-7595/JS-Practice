@@ -124,3 +124,10 @@ function triple(x){
 }
 
 console.log(higherOrder(square,triple,5))
+
+
+
+hello();
+hello=()=>{
+    console.log("namaste!")
+}
