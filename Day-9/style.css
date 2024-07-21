@@ -1,0 +1,13 @@
+
+.first{
+    background-color: brown;
+}
+
+#image {
+    height: 500px;
+    width: 400px;
+}
+
+.highlight{
+    background-color: blueviolet;
+}
