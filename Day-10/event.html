@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="my-form">
+        <label>
+            Name: <input type="text" name="name" required>
+        </label><br>
+        <label>
+            Email: <input type="email" name="email" required>
+        </label><br>
+        <label>
+            <input type="radio" name="animal" value="dog">
+            Dog
+        </label>
+        <label>
+            <input type="radio" name="animal" value="ced">
+            Cat
+        </label>
+        <label>
+            <input type="radio" name="animal" value="parrot">
+            Parrot
+        </label>
+        <label>
+            <input type="radio" name="animal" value="cow">
+            Cow
+        </label>
+        <label>
+            Choose your favorite color:
+            <select id="colorSelect" name="color">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+            </select>
+        </label><br>
+        <p id="selected-color"> selected color : none </p>
+        <button style="background-color: black; color:aliceblue;" type="submit">submit</button>
+    </form>
+
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <button id="addItemButton">Add Item</button>
+
+
+    <script src="event.js"></script>
+</body>
+</html>
